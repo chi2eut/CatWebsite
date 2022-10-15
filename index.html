@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8" />
-  <title>Creative Project #3</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-
-  <h1>Debugging JavaScript</h1>
-
-  <p>This app uses the <a href="http://numbersapi.com/">Numbers API</a> to
-    get interesting information about a number or date.</p>
-
-  <form class="pure-form>" <fieldset>
-    <legend>Enter a number, a date (month/day), a year, or leave blank for a random number</legend>
-    <input placeholder="number" id="number">
-    <br>
-    <p></p>
-    <select id="selector">
-      <option value="trivia">Trivia</option>
-      <option value="math">Math</option>
-      <option value="date">Date</option>
-      <option value="year">Year</option>
-    </select>
-    <p></p>
-    <button id="woo" class="pure-button pure-button-primary">Woo!</button>
-    </fieldset>
-  </form>
-  <p id="result"></p>
-
-  <script text="type/javascript" src="script-numbers.js">
-  </script>
-
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Creative Project #3</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+  
+    <h1>Random Cat Worrrrrrld</h1>
+  
+    <p id="intro">Welcome to the <strong>Random Cat Worrrrrrld</strong>!!!!!<br> You can find the most randomest Cat Facts and Cat pictures here!</p>
+  
+    <h2>Random Cat Facts!!!!</h2>
+    
+    <form>
+      <label>Enter a <em>number</em> of cat facts you want.</label>
+      <input id="numberInput" type="number"></input>
+      <input id="numberSubmit" type="submit" value="Submit"></input>
+    </form>
+    
+    <div id="catFacts"></div>
+    
+    <h2>Random Cat Pictures!!!!</h2>
+    
+    <form>
+      <label>Enter a <em>number</em>  of Cat pictures you want.</label>
+      <input id="picNumInput" type="number"></input>
+      <input id="picNumSubmit" type="submit" value="Submit"></input>
+    </form>
+    
+    <div id="catPictures"></div>
+  
+    <script text="type/javascript" src="script.js">
+    </script>
+  
+  </body>
+  
+  <footer>
+    <p>Chahyun Kang</p>
+    <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+  </footer>
 
 </html>
